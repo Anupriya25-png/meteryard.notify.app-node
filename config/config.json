@@ -1,0 +1,26 @@
+{
+    "development": {
+        "config_id": "development",
+        "app_name": "meteryard.notify.app-node",
+        "app_desc": "meteryard.notify.app-node",
+        "node_port": 3020,
+        "json_indentation": 4,
+        "host": "localhost",
+        "basicAuthUser": "",
+        "basicAuthKey": "",
+        "database": "",
+        "url": "",
+        "swaggerURL": "localhost:8000"
+        
+    },
+    "staging": {
+        "config_id": "staging",
+        "node_port": 1829,
+        "database": "meteryard.notify.app-node",
+        "swaggerURL": "meteryard.notify.app-node",
+        "host": "localhost",
+        "basicAuthUser": "",
+        
+        "basicAuthKey": ""
+    }
+}
